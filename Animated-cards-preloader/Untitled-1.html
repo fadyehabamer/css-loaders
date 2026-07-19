@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<meta name="contact me" content="for more such type of designs">
+
+<head>
+
+    <title>Here's easy way to do this</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #C0C0C0;
+        }
+
+        .box {
+            position: absolute;
+            top: calc(50% - 150px);
+            /*this line code is just to make items in center*/
+            left: calc(50% - 100px);
+            /*this line code is just to make items in center*/
+            transform: perspective(1000px) rotateY(-135deg);
+            /*make it 45deg to turn it's side*/
+            width: 100px;
+            height: 200px;
+            transform-style: preserve-3d;
+
+        }
+
+        .box div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;
+            animation: animate 2s linear infinite;
+            /*less time=more faster | more time=less faster, change the time to see the effect*/
+        }
+
+        @keyframes animate {
+            0% {
+                transform: perspective(1000px) rotateX(0deg);
+            }
+
+            100% {
+                transform: perspective(1000px) rotateX(360deg);
+            }
+        }
+
+
+        .box div span {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+        }
+
+        .box div span:nth-child(1) {
+            transform: rotateX(0deg);
+            background: #001f3f;
+        }
+
+        .box div span:nth-child(2) {
+            transform: rotateX(45deg);
+            background: #571845;
+        }
+
+        .box div span:nth-child(3) {
+            transform: rotateX(-45deg);
+            background: #3D9970;
+        }
+
+        .box div span:nth-child(4) {
+            transform: rotateX(90deg);
+            background: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</body>
+
+</html>
