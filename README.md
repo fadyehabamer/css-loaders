@@ -1,19 +1,19 @@
 # css-loaders
 
-> CSS loaders, preloaders & spinners — a curated collection
+> CSS loaders, preloaders & spinners
 
-**7 demos** consolidated from individual repositories — each preserved in its own folder.
+**7 demos** · 🔗 **[Live gallery](https://fadyehabamer.github.io/css-loaders/)** — every demo is deployed to GitHub Pages.
 
-| Demo | Description |
-|------|-------------|
-| [`3d-spinner-Pre-loader`](./3d-spinner-Pre-loader/) | Using CSS3 |
-| [`Animated-cards-preloader`](./Animated-cards-preloader/) | Using Css3 |
-| [`Bird-preLoader`](./Bird-preLoader/) | Bird shape acts like a preloader |
-| [`Linkedin-loader`](./Linkedin-loader/) | Using Css Animation |
-| [`Material-PreLoader`](./Material-PreLoader/) | Material UI Preloader with vanilla CSS |
-| [`SpinningPreLoader`](./SpinningPreLoader/) | Spinning circles preloader |
-| [`Square-Loading-Animation`](./Square-Loading-Animation/) | loading animation using css3 |
+| Demo | Description | Preview |
+|------|-------------|---------|
+| [`3d-spinner-Pre-loader`](./3d-spinner-Pre-loader/) | Using CSS3 | [🔗 Live](https://fadyehabamer.github.io/css-loaders/3d-spinner-Pre-loader/3d Spinner/) |
+| [`Animated-cards-preloader`](./Animated-cards-preloader/) | Using Css3 | [🔗 Live](https://fadyehabamer.github.io/css-loaders/Animated-cards-preloader/Untitled-1.html) |
+| [`Bird-preLoader`](./Bird-preLoader/) | Bird shape acts like a preloader | [🔗 Live](https://fadyehabamer.github.io/css-loaders/Bird-preLoader/) |
+| [`Linkedin-loader`](./Linkedin-loader/) | Using Css Animation | [🔗 Live](https://fadyehabamer.github.io/css-loaders/Linkedin-loader/Linkedin-Loader-master/linkedin/linkedin.html) |
+| [`Material-PreLoader`](./Material-PreLoader/) | Material UI Preloader with vanilla CSS | [🔗 Live](https://fadyehabamer.github.io/css-loaders/Material-PreLoader/) |
+| [`SpinningPreLoader`](./SpinningPreLoader/) | Spinning circles preloader | [🔗 Live](https://fadyehabamer.github.io/css-loaders/SpinningPreLoader/) |
+| [`Square-Loading-Animation`](./Square-Loading-Animation/) | loading animation using css3 | [🔗 Live](https://fadyehabamer.github.io/css-loaders/Square-Loading-Animation/) |
 
 ---
 
-Each folder is a standalone demo — open its `index.html` to view it. Previously separate repositories, merged here to keep the profile clean while preserving every file.
+Each folder is a standalone demo. Click **🔗 Live** to view it running, or open the folder for source. Previously separate repositories, merged here to keep the profile clean while preserving every file.
