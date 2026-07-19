@@ -6,10 +6,10 @@
 
 | Demo | Description | Preview |
 |------|-------------|---------|
-| [`3d-spinner-Pre-loader`](./3d-spinner-Pre-loader/) | Using CSS3 | [🔗 Live](https://fadyehabamer.github.io/css-loaders/3d-spinner-Pre-loader/3d Spinner/) |
-| [`Animated-cards-preloader`](./Animated-cards-preloader/) | Using Css3 | [🔗 Live](https://fadyehabamer.github.io/css-loaders/Animated-cards-preloader/Untitled-1.html) |
+| [`3d-spinner-Pre-loader`](./3d-spinner-Pre-loader/) | Using CSS3 | [🔗 Live](https://fadyehabamer.github.io/css-loaders/3d-spinner-Pre-loader/) |
+| [`Animated-cards-preloader`](./Animated-cards-preloader/) | Using Css3 | [🔗 Live](https://fadyehabamer.github.io/css-loaders/Animated-cards-preloader/) |
 | [`Bird-preLoader`](./Bird-preLoader/) | Bird shape acts like a preloader | [🔗 Live](https://fadyehabamer.github.io/css-loaders/Bird-preLoader/) |
-| [`Linkedin-loader`](./Linkedin-loader/) | Using Css Animation | [🔗 Live](https://fadyehabamer.github.io/css-loaders/Linkedin-loader/Linkedin-Loader-master/linkedin/linkedin.html) |
+| [`Linkedin-loader`](./Linkedin-loader/) | Using Css Animation | [🔗 Live](https://fadyehabamer.github.io/css-loaders/Linkedin-loader/) |
 | [`Material-PreLoader`](./Material-PreLoader/) | Material UI Preloader with vanilla CSS | [🔗 Live](https://fadyehabamer.github.io/css-loaders/Material-PreLoader/) |
 | [`SpinningPreLoader`](./SpinningPreLoader/) | Spinning circles preloader | [🔗 Live](https://fadyehabamer.github.io/css-loaders/SpinningPreLoader/) |
 | [`Square-Loading-Animation`](./Square-Loading-Animation/) | loading animation using css3 | [🔗 Live](https://fadyehabamer.github.io/css-loaders/Square-Loading-Animation/) |
