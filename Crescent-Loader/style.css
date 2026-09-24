@@ -51,13 +51,32 @@ body {
   animation: twinkle 1.2s ease-in-out infinite;
 }
 
-.label {
+.visually-hidden {
   position: absolute;
-  top: calc(100% + 24px);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.back {
+  position: fixed;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 0.9rem;
-  letter-spacing: 0.08em;
+  color: #c9d4e6;
+  font-size: 0.875rem;
+  text-underline-offset: 3px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.back:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 2px;
 }
 
 @keyframes rock {
@@ -79,5 +98,30 @@ body {
   50% {
     transform: scale(1.1) rotate(36deg);
     opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .moon,
+  .star {
+    animation: none;
+  }
+
+  .moon {
+    transform: rotate(-8deg);
+  }
+
+  .star {
+    animation: glow 3s ease-in-out infinite;
+  }
+
+  @keyframes glow {
+    0%,
+    100% {
+      opacity: 0.6;
+    }
+    50% {
+      opacity: 1;
+    }
   }
 }
