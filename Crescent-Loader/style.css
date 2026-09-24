@@ -35,6 +35,8 @@ body {
   border-radius: 50%;
   box-shadow: calc(var(--size) * -0.2) calc(var(--size) * 0.08) 0 0 var(--gold);
   filter: drop-shadow(0 0 10px rgba(244, 201, 93, 0.45));
+  transform-origin: 50% 50%;
+  animation: rock 2.4s ease-in-out infinite;
 }
 
 .star {
@@ -45,6 +47,7 @@ body {
   height: calc(var(--size) * 0.22);
   background: var(--gold);
   clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  animation: twinkle 1.2s ease-in-out infinite;
 }
 
 .label {
@@ -54,4 +57,26 @@ body {
   transform: translateX(-50%);
   font-size: 0.9rem;
   letter-spacing: 0.08em;
+}
+
+@keyframes rock {
+  0%,
+  100% {
+    transform: rotate(-14deg);
+  }
+  50% {
+    transform: rotate(14deg);
+  }
+}
+
+@keyframes twinkle {
+  0%,
+  100% {
+    transform: scale(0.6) rotate(0deg);
+    opacity: 0.45;
+  }
+  50% {
+    transform: scale(1.1) rotate(36deg);
+    opacity: 1;
+  }
 }
