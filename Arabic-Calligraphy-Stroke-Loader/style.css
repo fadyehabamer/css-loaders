@@ -40,6 +40,11 @@ body {
   stroke-width: 1.2;
   stroke-linejoin: round;
   stroke-linecap: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  fill-opacity: 0;
+  animation: write 4s ease-in-out infinite both;
+  animation-delay: calc(var(--i) * 0.25s);
 }
 
 .tanween {
@@ -50,4 +55,29 @@ body {
 .label {
   font-size: 0.9rem;
   letter-spacing: 0.08em;
+}
+
+@keyframes write {
+  0% {
+    stroke-dashoffset: 1;
+    fill-opacity: 0;
+    opacity: 1;
+  }
+  35% {
+    stroke-dashoffset: 0;
+    fill-opacity: 0;
+  }
+  50% {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  95%,
+  100% {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+    opacity: 0;
+  }
 }
