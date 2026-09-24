@@ -55,9 +55,32 @@ body {
   stroke: var(--accent);
 }
 
-.label {
-  font-size: 0.9rem;
-  letter-spacing: 0.08em;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.back {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--ink);
+  font-size: 0.875rem;
+  text-underline-offset: 3px;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.back:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
 }
 
 @keyframes write {
@@ -82,5 +105,24 @@ body {
     stroke-dashoffset: 0;
     fill-opacity: 1;
     opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stroke {
+    stroke-dashoffset: 0;
+    fill-opacity: 1;
+    animation: breathe 3s ease-in-out infinite;
+    animation-delay: calc(var(--i) * 0.2s);
+  }
+
+  @keyframes breathe {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.55;
+    }
   }
 }
