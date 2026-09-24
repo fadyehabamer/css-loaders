@@ -7,7 +7,7 @@
 :root {
   --sky: #0f1a2e;
   --gold: #f4c95d;
-  --size: 96px;
+  --size: clamp(64px, 24vw, 120px);
 }
 
 body {
@@ -21,6 +21,7 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
+  padding: 24px;
 }
 
 .loader {
